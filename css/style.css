@@ -1,0 +1,98 @@
+/*css principal*/
+
+*{
+	margin: 0;
+	border: 0;
+	padding: 0;
+}
+
+.topo{
+	text-align: center;
+	background-color: #191970;
+	height: 250px;
+}
+
+h1{
+	font-size: 2rem;
+	text-align: center;
+	text-shadow: 2px 2px 2px #191970;
+}
+
+.pesquisa{
+	text-align: right;
+}
+
+.conteudo{
+	font-size: 1rem;
+	padding: 20px;
+}
+
+h2{
+	font-size: 1.5rem;
+	text-align: center;
+}
+
+h3{
+	font-size: 1.17rem;
+	text-align: center;
+}
+
+.send{
+	text-align:center;
+}
+
+.rodape{
+	text-align: center;
+	text-shadow: 2px 2px 2px #000;
+	color: #fff;
+	background-color: #191970;
+}
+
+@media (min-width: 320px) {
+	.topo{
+		height: 80px;
+	}
+
+}
+
+@media (min-width: 360px) {
+	.topo{
+		height: 90px;
+	}
+}
+
+@media (min-width: 384px) {
+	.topo{
+		height: 100px;
+	}
+}
+
+@media (min-width: 412px) {
+	.topo{
+		height: 110px;
+	}
+}
+
+@media (min-width: 576px) {
+	.topo{
+		height: 150px;
+	}
+}
+
+@media (min-width: 720px) {
+	.topo{
+		height: 190px;
+	}
+}
+
+@media (min-width: 992px) {
+	.topo{
+		height: 200px;
+	}
+}
+
+@media (min-width: 1220px) {
+	.topo{
+		height: 220px;
+	}
+}

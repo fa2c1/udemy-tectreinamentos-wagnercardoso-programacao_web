@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-br">
+	<head>
+		<title>.::Programação Web::.</title>
+		<!-- Required meta tags -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+
+		<!-- Bootstrap CSS v5.2.0-beta1 -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"  integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+	</head>
+	<body>
+
+		<header>
+			<div class="topo">
+				<img src="img/topo_aula.png" class="img-fluid" alt="Imagens de dispositivos eletronicos">
+			</div>
+			<div>
+				<br><br><br><br>
+				<h1>TECTREINAMENTOS - PROGRAMAÇÃO WEB COM PHP</h1>
+			</div>
+		</header>
+
+		<nav class="navbar bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand">
+					<h6>Prof. Wagner Cardoso</h6>
+				</a>
+				<form class="d-flex" role="search" method="get" action="recebe.php">
+					<input class="form-control me-4" type="text" name="pesquisa" placeholder="Pesquise aqui">
+					<button class="btn btn-outline-primary" type="submit" name="enviar">Pesquisar</button>
+				</form>
+			</div>
+		</nav>
+
+		<section>
+			<div class="container">
+				<div class="conteudo">
+					<h2>Manual de Uso - Introdução das Aplicações utilizadas</h2>
+					<p>No item acima, vamos realizar uma pesquisa onde as informações coletadas pela caixa de texto serão enviadas por um formulário (método POST) para uma página de tratamentos denominada receb.php.<br>Lá serão coletadas as variáveis que por meio de um Switch vão perceber qual o dado coleto e vão relacionar a uma determinada resposta.<br><br> No item abaixo também haverá uma coleta de informações via formulário, porém neste momento em método POST para esconder as informações da URL.<br>Essas informações serão convertidas em variáveis que serão tratadas em uma estrutura de decisão onde caso a renda registrada seja maior ou igual a 2.000 o crédit será aprovado, caso não o crédito será rcusado.<br></p>
+					<fieldset>
+						<legend><h3>Calcule aqui sua Possibilidade de Crédito</h3></legend>
+						<form method="post" action="credito.php">
+							<div class="mb-3">
+								<label for="nome" class="form-label">Nome</label> 
+								<input class="form-control"  type="text" name="nome" placeholder="Digite seu nome">
+							</div>
+							<div class="mb-3">
+								<label for="renda" class="form-label">Renda</label>
+								<input class="form-control"  type="number" name="renda" placeholder="Digite sua renda">
+							</div>
+							<div class="send">
+								<input class="btn btn-primary" type="submit" name="enviar" value="Calcular Crédito">
+							</div>
+						</form><br>
+					</fieldset><br>
+					<h2>Introdução ao Formulário de Orçamento</h2>
+					<p>Para finalizar vamos utilizar o formulário abaixo para que seja possível realizar um orçamento de serviços.<br> Nesta simulação vamos apresentar uma opção de impressão da página de orçamentos.<br></p>
+					<fieldset>
+						<legend><h3>Faça seu Orçamento</h3></legend>
+							<br>
+							<form method="post" action="orcamento.php">
+								<div class="mb-3">
+									<label for="date" class="form-label">Data do Orçamento</label>  
+									<input class="form-control" type="date" name="data" placeholder="Escolha uma data">
+								</div>
+								<div class="mb-3">
+									<label for="garantia" class="form-label">Tempo de Garantia (em meses)</label> 
+									<input class="form-control"  type="number" name="garantia" min="1" max="6" placeholder="Escolha o tempo de garantia de 1 a 6">
+								</div>
+								<div class="mb-3">
+									<label for="servico" class="form-label">Escolha um tipo de serviço</label> 
+									<select class="form-select" name="servico" aria-label="Escolha um tipo de serviço">
+										<option selected>Tipo do serviço</option>
+										<option value="Concerto">Conserto</option>
+										<option value="Formatação">Formatação</option>
+										<option value="Outros">Outros</option>
+									</select>
+								</div>
+								<div class="mb-3">
+									<label for="garantia" class="form-label">Produto</label>
+									<input class="form-control" type="text" name="produto" placeholder="Digite o tipo do produto"></p>
+								</div>
+								<div class="mb-3">
+									<label for="marca" class="form-label">Marca</label>
+									<input class="form-control" type="text" name="marca" placeholder="Digite a marca"></p>
+								</div>
+								<div class="send">
+									<input class="btn btn-primary" type="submit" name="enviar" value="Realizar orçamento">
+								</div>
+							</form>
+					</fieldset>
+				</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="rodape">
+				<span>Programação web com PHP</span><br>
+				<span>Todos os direitos reservados</span><br>
+				<span>Desenvolvido por Fernando Coutinho</span>
+			</div>
+		</footer>
+
+		<!-- Bootstrap JavaScript Libraries -->
+		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+	
+	</body>
+</html>
