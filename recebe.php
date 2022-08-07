@@ -43,7 +43,7 @@
 							case 'office':
 								echo "
 									<h2>Pacote Office</h2><br>
-									<img src='img/office.png' class='img-fluid' alt='Office 365'><br><br>
+									<img src='img/office.png' class='img-fluid send' alt='Office 365'><br><br>
 									Faculdade, cursos livres e técnicos<br>
 									Mercado de trabalho disputado, empresas cada vez mais exigentes...<br>
 									Tempo e Dinheiro, são fatores que ocupam e preocupam pessoas o tempo todo na atual sociedade.<br>
@@ -53,7 +53,7 @@
 							case 'negocios':
 								echo "
 									<h2>Negócios Digitais</h2>
-									<img src='img/negocios.png' class='img-fluid' alt='Dinheiro em caixa'><br><br>
+									<img src='img/negocios.png' class='img-fluid send' alt='Dinheiro em caixa'><br><br>
 									Já imaginou desenvolver um site e obter renda extra com isso?<br>
 									Já imaginou trabalhar como afiliado de produtos digitais, gerando renda sem ter que abandonar seu atual emprego ou atividade?<br>
 									Prestar serviços de desenvolvimento de sites para empreendedores digitais, com campanhas completas de Marketing digital utilizando Google Ads, Facebook Ads?<br>
@@ -64,7 +64,7 @@
 							case 'marketing':
 								echo "
 									<h2>Marketing Digital</h2>
-									<img src='img/Ads.png' class='img-fluid' alt='ADS Facebook e Google'><br><br>
+									<img src='img/Ads.png' class='img-fluid send' alt='ADS Facebook e Google'><br><br>
 									Uma das maiores dificuldades no início de qualquer empreendimento é a conquista dos clientes, mostrar o quanto sua ideia pode ser inovadora ou o quanto seu produto 
 									pode ser útil e sua qualidade surpreendente.<br>
 									Se você é um produtor de conteúdo digital (Youtuber por exemplo) este curso vai ajudar a alavancar seus vídeos e conquistar público. <br>
